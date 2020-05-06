@@ -11,5 +11,4 @@ public class Lab1Controller {
 	{
 		return "hello";
 	}
-
 }
