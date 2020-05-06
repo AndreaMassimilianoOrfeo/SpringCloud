@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Lab1Controller {
 	
 	@GetMapping("/")
-	public String lab1Get () {
+	public String lab1Get () 
+	{
 		return "hello";
 	}
 
