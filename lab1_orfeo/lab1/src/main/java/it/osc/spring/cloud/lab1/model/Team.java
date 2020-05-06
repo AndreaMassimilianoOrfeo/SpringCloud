@@ -2,11 +2,19 @@ package it.osc.spring.cloud.lab1.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Team implements Serializable {
 
 	private static final long serialVersionUID = -7592250870032009014L;
 
+	@Id
+	@GeneratedValue
 	private Long id ;
+	
 	private String location;
 	private String name ;
 	
