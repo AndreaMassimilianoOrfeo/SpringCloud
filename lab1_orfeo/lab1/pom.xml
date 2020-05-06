@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>it.osc.spring.cloud</groupId>
-	<artifactId>lab1</artifactId>
+	<artifactId>lab1_orfeo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>lab1</name>
+	<name>lab1_orfeo</name>
 	<description>Part 1 - Simple Web Application</description>
 
 	<properties>
